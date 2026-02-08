@@ -169,7 +169,7 @@ export default function HomePage() {
           <p className="text-xl text-blue-100 mb-8 leading-relaxed">
             הצטרף לקהילת המתמחים המובילים בגריאטריה ושפר את הכישורים הקליניים שלך
           </p>
-          <Link href="/dashboard" className="inline-flex items-center px-8 py-4 bg-white text-medical-600 rounded-xl font-semibold hover:bg-gray-50 transition-colors duration-200">
+          <Link href="/dashboard" className="medical-btn-primary inline-flex items-center bg-white text-medical-600 hover:bg-gray-50 px-8 py-4 rounded-xl font-semibold">
             <Calendar className="w-5 h-5 ml-2 rtl:ml-0 rtl:mr-2" />
             לוח הבקרה שלי
           </Link>
