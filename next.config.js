@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    domains: ['library.szmc.org.il'],
-  },
   env: {
     ANALYZER_URL: process.env.ANALYZER_URL || 'http://localhost:8888',
   }
